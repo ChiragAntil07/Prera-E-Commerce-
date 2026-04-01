@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple E-Commerce Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Prera E-Commerce Store</h1>
+      <p>A small online store for all your needs</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="status-box">
+      <p id="loadingMessage">Loading products...</p>
+      <p id="errorMessage" class="hidden">Something went wrong. Please try again.</p>
+      <p id="resultCount" class="hidden"></p>
+    </section>
+
+    <section id="productList" class="product-grid"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
