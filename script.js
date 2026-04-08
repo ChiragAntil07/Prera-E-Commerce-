@@ -61,8 +61,8 @@ function updateThemeButton() {
   const darkModeEnabled = document.body.classList.contains("dark-theme");
 
   themeToggle.textContent = darkModeEnabled
-    ? "Switch to Light Mode"
-    : "Switch to Dark Mode";
+    ? "☀️"
+    : "🌙";
   themeToggle.setAttribute("aria-pressed", String(darkModeEnabled));
 }
 
