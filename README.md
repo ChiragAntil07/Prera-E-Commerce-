@@ -2,6 +2,12 @@
 
 Prera E-Commerce Store is a responsive JavaScript web application that fetches live product data from the DummyJSON API and presents it in an interactive store-style interface. The project was built to demonstrate API integration, DOM manipulation, array higher-order functions, local storage, and clean UI design for the final submission milestone.
 
+## Project Live 
+
+Project is hosted using github pages. 
+Link :- https://chiragantil07.github.io/Prera-E-Commerce-/
+
+
 ## Project Purpose
 
 The purpose of this project is to create a complete front-end web application using HTML, CSS, and JavaScript. It covers all major milestone expectations:
